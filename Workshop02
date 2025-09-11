@@ -11,7 +11,22 @@ function repeatingText() {
 
 repeatingText();
 
-//tehtävä 3 sipmlewebpage.html
+//tehtävä 3
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple webpage</title>
+    <script>
+        let userAgent = navigator.userAgent;
+            if (userAgent.includes("Firefox")) {
+                window.location.href = "http://www.mozilla.org";
+            } else {
+                window.location.href = "http://www.microsoftedge.com";
+            }
+    </script>
+</head>
+</html>
 
 //tehtävä 4
 
